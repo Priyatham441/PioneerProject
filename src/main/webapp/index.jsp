@@ -7,6 +7,6 @@
 <title>Shopping Cart</title>
 </head>
 <body>
-<h1>Testing commits</h1>
+<h1>Testing my application</h1>
 </body>
 </html>
