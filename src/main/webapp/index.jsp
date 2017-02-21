@@ -9,5 +9,6 @@
 <body>
 <h1>Testing my application</h1>
 <h2>Shopping Cart</h2>
+<p>Testing</p>
 </body>
 </html>
