@@ -13,6 +13,10 @@
 <h3>Loading</h3>
 =======
 <p>Testing</p>
+<<<<<<< HEAD
 >>>>>>> d5e4d57d476c17036837a2f55d0ae1f626203d0f
+=======
+    <h2>Progressing....</h2>
+>>>>>>> 0c2b61232ed58123a537ab355084df5a881ac868
 </body>
 </html>
