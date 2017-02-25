@@ -9,6 +9,10 @@
 <body>
 <h1>Testing my application</h1>
 <h2>Shopping Cart</h2>
+<<<<<<< HEAD
 <h3>Loading</h3>
+=======
+<p>Testing</p>
+>>>>>>> d5e4d57d476c17036837a2f55d0ae1f626203d0f
 </body>
 </html>
