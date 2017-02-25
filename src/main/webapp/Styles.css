@@ -1,0 +1,55 @@
+body{
+	margin: 0;
+	padding:0;
+	font: italic;
+    background-color: lightseagreen;
+	}
+.top-row{
+	
+	overflow: hidden;
+	width:420px;
+	margin: auto;
+	margin-top: 150px;
+    margin-left: 700px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid silver;
+    margin-bottom: 100px;
+    border-radius: 5px;
+
+	}
+	
+.top-row input {
+	
+	width: 400px;
+	height: 35px;
+	margin-bottom: 30px;
+	border-radius: 3px;
+	border: 1px solid silver;
+	padding: 5px;
+	
+}
+
+.top-row .button-id{
+padding: 5px;
+width:415px;
+height: 45px;
+background-color: darkgreen;
+color: #fff;
+border-radius: 10px;
+border: 0px;
+font-size: 18px;
+}
+.top-row p{
+
+	padding-left: 100px;
+}
+.top-row .title{
+	margin-top: -5px;
+padding-left: 150px;
+font-style: italic;
+font-size: 30px;
+font-weight: bold;
+
+	
+}
