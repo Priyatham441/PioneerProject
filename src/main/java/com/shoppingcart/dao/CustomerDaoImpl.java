@@ -13,7 +13,7 @@ public void setTemplate(JdbcTemplate template) {
 	this.template = template;
 }
 public int save(Customer p){
-	String sql="insert into customer(name,salary,designation) values('"+p.getId()+"',"+p.getUsername()+",'"+p.getPassword()+"','"+p.getFirstname()+"','"+p.getLastname()+"','"+p.getMailid()+"')";
+	String sql="insert into customer(usernaem,password,firstname,lastname,mailid) values('"+p.getId()+"',"+p.getUsername()+",'"+p.getPassword()+"','"+p.getFirstname()+"','"+p.getLastname()+"','"+p.getMailid()+"')";
 	return template.update(sql);
 }
 
