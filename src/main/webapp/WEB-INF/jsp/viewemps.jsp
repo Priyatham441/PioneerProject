@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
     <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <style type="text/css">  
@@ -23,7 +23,8 @@ div {
 </head>
 <body>
 <div>
-<h1>All Employees</h1>
+<h4>${msg }</h4>
+<h5>All Employees</h5>
    <table>
    <tr><th> Employee ID  </th>
    <th>Employee Name</th>

@@ -1,68 +1,69 @@
-
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html ng-app="PCSProject">
 <head>
 <meta charset="UTF-8">
 
 <title>Login Form</title>
-<link rel="stylesheet" type="text/css" href="Styles.css">
-<script src="angular.js"></script>
-<script src="MainApp.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/Styles.css">
+<script src="/js/angular.js"></script>
+<script src="/js/MainApp.js"></script>
 
 </head>
 <body ng-controller="Btnfunction as Bt">
-  
-<div class="top-row" ng-hide="hideClassStatus">
-  <p class="title">Login Page</p>
-            <div >
-              <label>
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text"  placeholder="FirstName" required/>
-            </div>
-        
-            <div >
-              <label>
-                Password<span class="req">*</span>
-              </label>
-              <input type="password" placeholder="Password"/>
-            </div>
-            <button class="button-id" >Login</button>
-<p><b> Not a member?? <a href="" ng-click="hideClasses()">Please Sign Up</b></a>
-</div>
 
-    
-<div class="top-row" ng-show="hideClassStatus">
-  <p class="title">Sign Up</p>
-            <div >
-              <label>
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text"  placeholder="FirstName"/>
-            </div>
-        
-            <div >
-              <label>
-                Last Name<span class="req">*</span>
-              </label>
-              <input type="text" placeholder="LastName"/>
-            </div>
-            <div>
-              <label>
-                Email Address<span class="req">*</span>
-              </label>
-              <input type="text" placeholder="Email Address"/>
-            </div>
-            <div >
-              <label>
-                Phone Number<span class="req">*</span>
-              </label>
-              <input type="number" placeholder="Phone number"/>
-            </div>
-            <button class="button-id">Sign Up</button>
-            <p><b> Already a member?? <a href="" ng-click="hideClasses()">Please Login</b></a>
+	<div class="top-row" ng-hide="hideClassStatus">
+		<p class="title">Login Page</p>
+		<form action="login" method="post">
+			<div>
+				<label> User Name<span class="req">*</span>
+				</label> <input type="text" placeholder="UserName" name="userName" required />
+			</div>
 
-</div>
+			<div>
+				<label> Password<span class="req">*</span>
+				</label> <input type="password" name="password" placeholder="Password" />
+			</div>
+			<button class="button-id">Login</button>
+
+		</form>
+		<p>
+			<b> Not a member?? <a href="" ng-click="hideClasses()">Please
+					Sign Up</b></a>
+	</div>
+
+
+	<div class="top-row" ng-show="hideClassStatus">
+		<p class="title">Sign Up</p>
+		<form action="register" method="post">
+		<div>
+			<label> First Name<span class="req">*</span>
+			</label> <input type="text" name="firstName" placeholder="First Name" />
+		</div>
+
+		<div>
+			<label> Last Name<span class="req">*</span>
+			</label> <input type="text" name ="lastName" placeholder="Last Name" />
+		</div>
+		<div>
+			<label> Email Address<span class="req">*</span>
+			</label> <input type="text" name="email" placeholder="Email Address" />
+		</div>
+		<div>
+			<label> Password<span class="req">*</span>
+			</label> <input type="password" name="password" placeholder="Password" />
+		</div>
+		<div>
+			<label> Phone Number<span class="req">*</span>
+			</label> <input type="number" name="phoneNo" placeholder="Phone Number" />
+		</div>
+		<button class="button-id">Sign Up</button>
+		</form>
+		<p>
+			<b> Already a member?? <a href="" ng-click="hideClasses()">Please
+					Login</a></b></p>
+	</div>
 
 
 

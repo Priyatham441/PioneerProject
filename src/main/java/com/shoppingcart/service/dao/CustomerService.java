@@ -1,8 +1,8 @@
-package com.shoppingcart.dao;
+package com.shoppingcart.service.dao;
 
 import com.shoppingcart.models.Customer;
 
-public interface CustomerDao {
+public interface CustomerService {
 
 	public void save(Customer customer);
 }

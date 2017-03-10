@@ -1,6 +1,6 @@
 <%@ page import="com.shoppingcart.models.Customer" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -26,6 +26,7 @@ div {
 </head>
 <body>
 <div>
+	<h5>${msg }</h5>
 <table>
 <tr><td>Employee Details with Employee Id: <c:out value="${emp.id}"/> </td></tr>
 <tr><td> Employee Name:<c:out value="${emp.name}"></c:out></td></tr>
