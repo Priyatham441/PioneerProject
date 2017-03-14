@@ -16,13 +16,12 @@ http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
 <bean class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter"></bean>
     -->
  
-   <context:component-scan base-package="com.controller" />
+   <context:component-scan base-package="com.shoppingcart.controller" />
  
-    <bean id="ViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/" />
         <property name="suffix" value=".jsp" />
     </bean>
-    <context:annotation-config/>
 
        
 <bean id="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">

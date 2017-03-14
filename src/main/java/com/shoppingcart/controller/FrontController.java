@@ -21,14 +21,14 @@ public class FrontController {
 	CustomerDaoImpl dao;
   
    
-   @RequestMapping("/")
+   @RequestMapping("/index")
 	public ModelAndView showform1(){ 
 		return new ModelAndView("index");
 	}
    
   
    
-   @RequestMapping(value="/register",method = RequestMethod.GET)
+   @RequestMapping(value="redirect:/register",method = RequestMethod.GET)
 	public ModelAndView register1() {
 	
 		//to register employee object in datbase
